@@ -1,0 +1,26 @@
+In this article, we will create a simple D&D game using Python. This will be a text-based game, where players will input their actions through the command line.
+
+Designing the Game
+
+Before we start writing code, let's first design the basic structure of our game.
+
+Our game will have the following features:
+
+Players can create characters with a name, class, and hit points (HP).
+Players can attack monsters and earn experience points (XP).
+Players can level up and increase their HP when they gain enough XP.
+The game will have a simple combat system where players roll a 20-sided die to determine the outcome of their attack.
+With these features in mind, let's start designing our classes.
+
+Creating the Character Class
+
+We will start by creating a Character class to represent the players in our game. This class will have the following attributes:
+
+name: the name of the character
+char_class: the character's class (e.g. warrior, wizard, etc.)
+hp: the character's hit points
+xp: the character's experience points
+The Character class will also have the following methods:
+
+attack(): a method for the character to attack an enemy and potentially gain XP
+level_up(): a method for the character to level up and increase their HP when they have gained enough XP
